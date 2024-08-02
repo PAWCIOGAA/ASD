@@ -1,0 +1,1 @@
+Assignments for University lessons from Algorithms and Data Structures
