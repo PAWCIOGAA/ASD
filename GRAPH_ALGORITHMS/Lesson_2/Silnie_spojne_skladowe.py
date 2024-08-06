@@ -45,7 +45,7 @@ def Znajdowalnie_silnych_skladowych(G):
     token = 0
     def dfsu(u):
         result[u] = token
-        for v in G[u]:
+        for v in graph[u]:
             if result[v]<0:
                 dfsu(v)
 
