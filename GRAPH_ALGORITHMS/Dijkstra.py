@@ -13,7 +13,7 @@ def Dijskra(G,s):
         _,u = pq.get()
         if not done[u]:
             for v,weight in G[u]:
-                if weights[v] > weights[u] + weight:
+                if weights[v] > weights[u] + weight and not done[v]:
                     weights[v] = weights[u] + weight
                     parents[v] = u
                     pq.put((weights[v],v))
