@@ -1,5 +1,6 @@
 #graf skierowany
 
+#pomysł 2 na przekątnej ustwiam inf i wykonuje Floyda-Warshalla a następnie szukam minimum na przekątnej
 
 from copy import deepcopy
 def Floyd_Warshall(G:'matrix'):
