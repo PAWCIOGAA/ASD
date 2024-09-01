@@ -2,7 +2,7 @@ def Binary_search(A,left,right,key): # na początku left = 0 ,a right = len(A) -
     while(right-left > 1):
         m = left + (right - left) //2
         if(A[m] >= key):
-            r = m
+            right = m
         else:
-            l = m
-    return r
+            left = m
+    return right
