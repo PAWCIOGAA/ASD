@@ -1,6 +1,6 @@
 def Euler_cycle(G):
     cykl  = []
-    def DFS(v)
+    def DFS(v):
 
         while G[v]:
             u = G[v].pop()
